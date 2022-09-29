@@ -7,7 +7,7 @@ body{
     text-align: center;
 }
 
-h1{
+#home h1, .geral{
     font-size: 5rem;
     margin-bottom: 10px;
     text-shadow: 6px 6px rgba(68, 144, 169, 0.21);
@@ -16,10 +16,10 @@ h1{
 
 #home h3{
     margin-top: 0;
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
     font-size: 2rem;
     text-shadow: 3px 3px rgba(68, 144, 169, 0.21);
-    color: rgb(81, 78, 146);
+    color: #514e92;
 }
 
 #home ul{
@@ -27,33 +27,90 @@ h1{
 }
 
 #home ul li{
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     list-style-type: none;
 }
 
 #home a{
     background-color: #3e8e41;
     border-radius: 4px;
-    padding: 10px 20px;
+    padding: 12px 20px;
     box-shadow: 6px 6px rgba(68, 144, 169, 0.21);
     
     color: whitesmoke;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     
     cursor: pointer;
 
-    transition: 0.5s;
+    transition: 0.3s;
 
 
 }
 
 #home a:hover{
     background-color: #2d632e;
+    font-size: 1.4rem;
 }
 
+.back{
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    height: 30px;
+    background-color: #5daa60;
+    padding: 10px;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+.back:hover{
+    left: 20px;
+}
+
+.back img{
+    width: 30px;
+}
+
+.geral{
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid video{
+    justify-self: center;
+}
+
+.geral h1{
+    font-size: 2.7rem;
+    text-shadow: 4px 4px rgba(68, 144, 169, 0.21);
+    margin-bottom: 5px;
+}
+
+.subtitle{
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 500;
+    color: #514e92;
+    text-shadow: 2px 2px rgba(68, 144, 169, 0.21);
+}
+
+.vimeo{
+    margin-bottom: 60px;
+}
+
+.video-player{
+    padding-bottom: 10px;
+    border-bottom: 4px dashed #3e8e41;
+}
 
 .body2{
+    padding-left: 9rem;
+    padding-right: 9rem;
     background-color: yellow;
     font-family: Arial, Helvetica, sans-serif;
 }

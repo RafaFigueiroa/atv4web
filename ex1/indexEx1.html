@@ -9,17 +9,24 @@
 </head>
 
 <body>
+
+  <div>
+    <a class="back" href="../home.html">
+      <img src="../imagens/backIcon.png" alt="">
+    </a>
+  </div>
+
   <div class="geral">
     <h1>Vamos inserir vídeos hospedados localmente</h1>
-    <p>Estes vídeos estão hospedados no meu próprio servidor.</p>
+    <p class="subtitle">Estes vídeos estão hospedados no meu próprio servidor.</p>
     
     <div class="grid">
-      <video width="560" height="315" poster="../imagens/unicap-banner.jpg" controls loop>
+      <video class="video-player" width="560" height="315" poster="../imagens/unicap-banner.jpg" controls loop>
         <source src="../midia/meu-video1.mp4">
         <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
       </video>
   
-      <video width="560" height="315" poster="../imagens/unicap-banner.jpg" controls loop>
+      <video class="video-player" width="560" height="315" poster="../imagens/unicap-banner.jpg" controls loop>
         <source src="../midia/meu-video2.mp4">
         <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
       </video>
@@ -28,15 +35,13 @@
   
     <div class="youtube">
       <h1>Inserindo vídeos do Youtube</h1>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/UsR08cY8k0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="video-player" width="560" height="315" src="https://www.youtube.com/embed/UsR08cY8k0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     
     <div class="vimeo">
       <h1>Inserindo vídeos do Vimeo</h1>
-      <iframe src="https://player.vimeo.com/video/751900340?h=38f0906883&color=ebcbdc" width="640" height="360"
+      <iframe class="video-player" src="https://player.vimeo.com/video/751900340?h=38f0906883&color=ebcbdc" width="560" height="315"
         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-      <p><a href="https://vimeo.com/751900340">Axel Boman - Out Sailing (feat. Man Tear &amp; Inre Frid)</a> from <a
-          href="https://vimeo.com/adamchitayat">Adam Chitayat</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
     </div>
   </div>
 </body>
